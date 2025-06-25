@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c28dc9e-2ee1-4afd-9e27-fd80e538db23" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/controller/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Author_dto/AuthorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Author_dto/AuthorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Controller/AuthorControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -44,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LibraryApiApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/kazur/IdeaProjects/Book-accounting-service/src/main/java/ru/yandex/practicum/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LibraryApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Book-acc-service&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kazur/IdeaProjects/Book-accounting-service/src/main/java/ru/yandex/practicum/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -122,7 +115,111 @@
       <option name="project" value="LOCAL" />
       <updated>1750864174806</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавить порт">
+      <option name="closed" value="true" />
+      <created>1750867732915</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867732915</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавить swagger">
+      <option name="closed" value="true" />
+      <created>1750867749125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867749125</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавить схему sql(h2)">
+      <option name="closed" value="true" />
+      <created>1750867781981</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867781981</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавить контроллер автору">
+      <option name="closed" value="true" />
+      <created>1750867809105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867809105</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавить dto автору">
+      <option name="closed" value="true" />
+      <created>1750867822205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867822205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавить сервис автора">
+      <option name="closed" value="true" />
+      <created>1750867840464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867840464</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Добавить dto книги">
+      <option name="closed" value="true" />
+      <created>1750867852026</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867852026</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавить dto книги">
+      <option name="closed" value="true" />
+      <created>1750867873358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867873358</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавить контроллер книги">
+      <option name="closed" value="true" />
+      <created>1750867892643</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867892643</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Добавить serviceImpl книги">
+      <option name="closed" value="true" />
+      <created>1750867923349</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867923350</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Добавить тесты сервиса книги">
+      <option name="closed" value="true" />
+      <created>1750867946742</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867946742</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Добавить исключение">
+      <option name="closed" value="true" />
+      <created>1750867955487</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867955487</updated>
+    </task>
+    <task id="LOCAL-00020" summary=".">
+      <option name="closed" value="true" />
+      <created>1750867965843</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867965843</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +229,17 @@
     <MESSAGE value="Добавить зависимости" />
     <MESSAGE value="schema базы данных" />
     <MESSAGE value="Добавить приоритеты" />
+    <MESSAGE value="Добавить порт" />
+    <MESSAGE value="Добавить swagger" />
+    <MESSAGE value="Добавить схему sql(h2)" />
+    <MESSAGE value="Добавить контроллер автору" />
+    <MESSAGE value="Добавить dto автору" />
+    <MESSAGE value="Добавить сервис автора" />
+    <MESSAGE value="Добавить dto книги" />
+    <MESSAGE value="Добавить контроллер книги" />
+    <MESSAGE value="Добавить serviceImpl книги" />
+    <MESSAGE value="Добавить тесты сервиса книги" />
+    <MESSAGE value="Добавить исключение" />
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
