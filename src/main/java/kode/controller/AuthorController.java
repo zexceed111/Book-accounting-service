@@ -20,10 +20,6 @@ public class AuthorController {
         return authorService.create(request);
     }
 
-    /**
-     * Фильтрация по firstName или lastName через query-параметры.
-     * Пример: /authors?firstName=George&page=0&size=10
-     */
     @GetMapping
     public Page<AuthorResponse> getAuthors(@RequestParam(required = false) String firstName,
                                            @RequestParam(required = false) String lastName,
