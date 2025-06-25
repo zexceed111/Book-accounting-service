@@ -21,9 +21,7 @@ public class AuthorController {
     }
 
     @GetMapping
-    public Page<AuthorResponse> getAuthors(@RequestParam(required = false) String firstName,
-                                           @RequestParam(required = false) String lastName,
-                                           Pageable pageable) {
+    public Page<AuthorResponse> getAuthors(@RequestParam(required = false) String firstName, @RequestParam(required = false) String lastName, Pageable pageable) {
         return authorService.findAll(firstName, lastName, pageable);
     }
 
