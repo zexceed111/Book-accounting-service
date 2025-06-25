@@ -1,0 +1,11 @@
+package kode;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+class LibraryApiApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(LibraryApiApplication.class, args);
+    }
+}
