@@ -4,20 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c28dc9e-2ee1-4afd-9e27-fd80e538db23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8c28dc9e-2ee1-4afd-9e27-fd80e538db23" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Author_dto/AuthorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Author_dto/AuthorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/dto/Book_dto/BookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kode/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Controller/AuthorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2z0Ii3mfzxUEukOkAXLNkODU70z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,10 +46,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LibraryApiApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/kazur/IdeaProjects/Book-accounting-service/src/main/java/ru/yandex/practicum/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/kazur/IdeaProjects/Book-accounting-service/src/main/java/ru/yandex/practicum/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,17 +66,73 @@
       <option name="presentableId" value="Default" />
       <updated>1750861689085</updated>
     </task>
+    <task id="LOCAL-00001" summary="Создать модель данных">
+      <option name="closed" value="true" />
+      <created>1750864034364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864034364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Создать репозиторий">
+      <option name="closed" value="true" />
+      <created>1750864060486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864060486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="интегрировать spring в main">
+      <option name="closed" value="true" />
+      <created>1750864089023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864089023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавить зависимости">
+      <option name="closed" value="true" />
+      <created>1750864101547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864101547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="schema базы данных">
+      <option name="closed" value="true" />
+      <created>1750864145993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864145993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавить приоритеты">
+      <option name="closed" value="true" />
+      <created>1750864164979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864164979</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".">
+      <option name="closed" value="true" />
+      <created>1750864174806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750864174806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/yandex/practicum/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создать модель данных" />
+    <MESSAGE value="Создать репозиторий" />
+    <MESSAGE value="интегрировать spring в main" />
+    <MESSAGE value="Добавить зависимости" />
+    <MESSAGE value="schema базы данных" />
+    <MESSAGE value="Добавить приоритеты" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
